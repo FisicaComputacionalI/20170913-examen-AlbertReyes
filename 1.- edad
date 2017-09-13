@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+x = [0:1:23]
+y = x+1994
+plt.title('Reyes Ramirez Luis Alberto')
+plt.xlabel('edad')
+plt.ylabel('anio')
+plt.plot(x,y)
+plt.savefig('temp.png')
