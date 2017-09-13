@@ -1,5 +1,5 @@
 import numpy as np
-import pylab as pl
+import matplotlib.pyplot as plt
 def f(x):
     return 5*np.cos(2*np.pi*x)+2012
 x = np.arange(2012, 2018, 100)
